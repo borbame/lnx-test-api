@@ -1,0 +1,17 @@
+{
+  "name": "linx-test-api",
+  "version": "1.0.0",
+  "description": "init test api",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --env=jsdom --watchAll",
+    "test:coverage": "jest --env=jsdom --coverage",
+    "test:memory": "jest --env=jsdom --logHeapUsage"
+  },
+  "author": "Fábio borba",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "jest": "^24.9.0"
+  }
+}
